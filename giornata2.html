@@ -1,74 +1,113 @@
 <html>
 <head>
+<meta charset="UTF-8">
 	<title>
 	GIORNATA 2
 	</title>
 	<style>
+	.contenitore-tabelle {
+            display: flex;
+            justify-content: space-between; /* Distribuisce lo spazio rimanente tra le tabelle */
+            gap: 20px; /* Aggiunge uno spazio fisso di 20px tra le due colonne */
+            padding: 20px;
+        }
+	.colonna-tabella {
+            flex: 1; /* Fa sì che entrambi i div occupino uguale spazio disponibile */
+            padding: 10px;
+		}
 	body{background-color:#46768D;}
+
+    /* Stili aggiuntivi per migliorare l'aspetto delle tabelle */
+    table {
+        width: 100%; /* Fa sì che la tabella riempia il suo contenitore colonna */
+        border-collapse: collapse; /* Rimuove lo spazio tra i bordi delle celle */
+    }
+    td, th {
+        padding: 10px; /* Aggiunge spazio interno alle celle per una migliore leggibilità */
+         /* Aggiunge bordi visibili bianchi */
+    }
 	</style>
+</head>
 <body>
 <h2 style="color:white;"><a href="https://ilbluoscuro557.github.io/CASCELLALEAGUE/partite.html" style="text-decoration:none; color:white;">INDIETRO</a></h2>
 <h1 style="text-align:center; font-size:50pt; color:yellow;">GIORNATA 2<br>(17 Giugno 2025)</h1>
 <h1 style="text-align:center; font-size:50pt; color:white;">SQUADRA A 7 - 8 SQUADRA B</h1>
-<h2 style="color:white;">Michele Pio Valentino 5 goal; 1 assist</h2>
-<h2 style="color:white;">Andrea Alfieri 2 goal</h2>
-<h2 style="color:white;">Shariar Hossain 2 assist</h2> 
-<h2 style="text-align:right; color:white;">Luca Dicorato 3 goal; 2 assist</h2>
-<h2 style="text-align:right; color:white;">Carlo Piccolo 2 goal; 2 assist</h2>
-<h2 style="text-align:right; color:white;">Gianluca Taranto 1 goal; 1 assist</h2>
-	<table border="0" style="font-size:25pt; border:none;>
-		<tr style="text-align:center color:#163B60;">
+<div class="contenitore-tabelle">
+	<div class="colonna-tabella">
+	<table>
+		<tr>
+		<td><h2 style="color:white;">Michele Pio Valentino 5 goal; 2 assist</h2></td>
+		</tr>
+		<tr>
+		<td><h2 style="color:white;">Shahariar Hossain 2 goal; 2 assist</h2></td>
+		</tr>
+	</table>
+	</div>	
+	<div class="colonna-tabella">
+	<table>
+	<tr>
+	<td ><h2 style="text-align:right;color:white;">Luca Dicorato 6 goal; 4 assist</h2></td>
+	</tr>
+	<tr>
+	<td><h2 style="text-align:right; color:white;">Edoardo Scognamiglio 1 goal</h2></td>
+	</tr>
+	<tr>
+	<td><h2 style="text-align:right; color:white;">Antonio Ronzino 1 goal</h2></td>
+	</tr>
+</table>
+</div>
+</div>
+<div class="contenitore-tabelle">
+	<div class="colonna-tabella">
+	<table border="1" style="border:none; font-size:25pt; border: 1px solid white;">
+		<tr style="text-align:center;">
 			<td style="text-align:center; color:white;">GIOCATORE</td>
 			<td style="text-align:center; color:white;">VOTO</td>			
 		</tr>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:yellow;">Michele Pio Valentino</td>
-			<td style="text-align:center; color:yellow;">10</td>
+		<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Michele Pio Valentino</td>
+			<td style="text-align:center; color:white;">9,5</td>
 		</tr>
-			<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Andrea Alfieri</td>
-			<td style="text-align:center; color:white;">7</td>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Shariar Hossain</td>
-			<td style="text-align:center; color:white;">6,5</td>
+		<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Shahariar Hossain</td>
+			<td style="text-align:center; color:white;">8</td>
 		</tr>
-		<tr style="text-align:center; color:#163B60;">
+		<tr style="text-align:center;">
 			<td style="text-align:center; color:white;">Luigi Larovere</td>
 			<td style="text-align:center; color:white;">5,5</td>
 		</tr>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Gaetano Laporta</td>
-			<td style="text-align:center; color:white;">5,5</td>
+			<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Adriano Delvecchio</td>
+			<td style="text-align:center; color:white;">5</td>
+		<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Alessandro Ballarino</td>
+			<td style="text-align:center; color:white;">4</td>
 		</tr>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Fabio Muoio</td>
-			<td style="text-align:center; color:white;">8,5</td>
-		</tr>
-	</table>
-	<table border="0" style="font-size:25pt; border:none; justify-content:right; display:flex;">
-		<tr style="text-align:center color:#163B60;">
+	</table> <!-- Questo tag </table> era mancante/fuori posto -->
+	</div>
+	<div class="colonna-tabella" >
+	<table border="1" style="font-size:25pt; border:none; border: 1px solid white;">
+		<tr style="text-align:center;">
 			<td style="text-align:center; color:white;">GIOCATORE</td>
 			<td style="text-align:center; color:white;">VOTO</td>			
 		</tr>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Luca Dicorato</td>
-			<td style="text-align:center; color:white;">8</td>
+		<tr style="text-align:center;">
+			<td style="text-align:center; color:yellow;">Luca Dicorato</td>
+			<td style="text-align:center; color:yellow;">10</td>
 		</tr>
-			<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Carlo Piccolo</td>
-			<td style="text-align:center; color:white;">7</td>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Gianluca Taranto</td>
-			<td style="text-align:center; color:white;">6,5</td>
-		</tr>
-		<tr style="text-align:center; color:#163B60;">
-			<td style="text-align:center; color:white;">Nicolò Giannone</td>
-			<td style="text-align:center; color:white;">5</td>
-		</tr>
-		<tr style="text-align:center; color:#163B60;">
+			<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Gaetano Laporta</td>
+			<td style="text-align:center; color:white;">7,5</td>
+		<tr style="text-align:center;">
 			<td style="text-align:center; color:white;">Edoardo Scognamiglio</td>
-			<td style="text-align:center; color:white;">4,5</td>
+			<td style="text-align:center; color:white;">6</td>
+		</tr>
+		<tr style="text-align:center;">
+			<td style="text-align:center; color:white;">Antonio Ronzino</td>
+			<td style="text-align:center; color:white;">5,5</td>
+		</tr>
 	</table>
+	</div>
+</div>
 </body>
-</head>
 </html>
